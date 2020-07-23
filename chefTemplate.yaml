@@ -3,6 +3,7 @@ Parameters:
   SecurityGroupDescription:
     Description: Security Group Description
     Type: String
+    Default: "Chef Security test group"
 
 Resources:
   WorkstationInstance:
